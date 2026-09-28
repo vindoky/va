@@ -2,7 +2,7 @@ name: Scraper Vatican City
 
 on:
   schedule:
-    - cron: "0 */2 * * *"
+    - cron: "59 13 * * 6"
   workflow_dispatch:
 
 # Prevent a manual run and a scheduled run (or two schedules) from overlapping.
